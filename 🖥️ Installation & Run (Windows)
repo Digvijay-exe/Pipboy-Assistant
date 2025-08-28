@@ -1,0 +1,46 @@
+🖥️ Installation & Run (Windows)
+1️⃣ Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+...
+
+2️⃣ Create a virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate
+
+...
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+...
+
+4️⃣ Add your Groq API Key
+
+Open the Python file in the repo.
+
+Replace:
+
+GROQ_API_KEY = "YOUR_GROQ_API"
+
+with your actual API key from Groq Console
+
+...
+
+5️⃣ Run the app
+python your_script_name.py
+
+...
+
+6️⃣ Start chatting 🎉
+
+A Pipboy GUI window will open.
+
+Type your question in the input box and click Ask Pipboy.
+
+Pipboy will answer you with style 💬
+
+...
+
+✨ That’s it, Captain! Your Pipboy is ready to serve.
