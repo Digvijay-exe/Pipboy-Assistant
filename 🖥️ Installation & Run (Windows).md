@@ -2,27 +2,27 @@
 
 ---
 
-##1️⃣ Clone the repository
+1️⃣ Clone the repository
 
 git clone https://github.com/Digvijay-exe/Pipboy-Assistant.git
 cd Pipboy-Assistant
 
 ---
 
-##2️⃣ Create a virtual environment (recommended)
+2️⃣ Create a virtual environment (recommended)
 
 python -m venv venv
 venv\Scripts\activate
 
 ---
 
-##3️⃣ Install dependencies
+3️⃣ Install dependencies
 
 pip install -r requirements.txt
 
 ---
 
-##4️⃣ Add your Groq API Key
+4️⃣ Add your Groq API Key
 
 Open the Python file in the repo.
 
@@ -34,13 +34,13 @@ with your actual API key from Groq Console
 
 ---
 
-##5️⃣ Run the app
+5️⃣ Run the app
 
 python your_script_name.py
 
 ---
 
-##6️⃣ Start chatting 🎉
+6️⃣ Start chatting 🎉
 
 A Pipboy GUI window will open.
 
