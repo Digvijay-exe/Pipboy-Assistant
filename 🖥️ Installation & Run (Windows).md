@@ -1,4 +1,4 @@
-#🖥️ Installation & Run (Windows)
+🖥️ Installation & Run (Windows)
 
 ---
 
@@ -50,4 +50,4 @@ Pipboy will answer you with style 💬
 
 ---
 
-##✨ That’s it, Captain! Your Pipboy is ready to serve.
+✨ That’s it, Captain! Your Pipboy is ready to serve.
