@@ -39,16 +39,16 @@ def run_gui():
 
     # Colors
     default_bg = "#000000"
-    default_fg = "#00ffff"
+    default_fg = "#48ff00"
     dark_bg = "#121212"
-    neon_blue = "#00ffff"
+    neon_green = "#48ff00"
 
     # Apply theme
     def apply_theme():
         if dark_mode_enabled:
             root.configure(bg=dark_bg)
-            input_box.configure(bg=dark_bg, fg=neon_blue, insertbackground=neon_blue)
-            output_box.configure(bg=dark_bg, fg=neon_blue, insertbackground=neon_blue)
+            input_box.configure(bg=dark_bg, fg=neon_green, insertbackground=neon_green)
+            output_box.configure(bg=dark_bg, fg=neon_green, insertbackground=neon_green)
         else:
             root.configure(bg=default_bg)
             input_box.configure(bg=default_bg, fg=default_fg, insertbackground=default_fg)
