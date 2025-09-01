@@ -15,7 +15,7 @@ def ask_scan(question):
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama3-8b-8192",
+        "model": "llama-3.1-8b-instant",
         "messages": [
             {"role": "system", "content": "You are Pipboy, an intelligent, witty, and efficient assistant. Always address the user as 'Captain' in every"},
             {"role": "user", "content": question}
